@@ -2,13 +2,12 @@
 * @Author: xzhih
 * @Date:   2018-12-02 20:47:05
 * @Last Modified by:   xzhih
-* @Last Modified time: 2019-04-18 16:58:20
+* @Last Modified time: 2018-12-03 20:19:41
 */
 
 .highlight {
 	overflow-x: auto;
-	overflow-y: hidden;
-	background-color: var(--color-1);
+	background-color: #f8f8f8;
 	padding: 0.4em 0 0;
 	line-height: 1.1em;
 	border-radius: 2px;
@@ -27,7 +26,7 @@
 }
 .highlight .code pre {
 	padding: 1.2em 1.4em;
-	/*line-height: 1.5em;*/
+	line-height: 1.5em;
 	margin: 0;
 }
 .highlight .code .line {
@@ -40,10 +39,10 @@
 	position: absolute;
 	top: 0;
 	right: 0;
-	padding: 5px 10px 0;
 	color: #ccc;
 	text-align: right;
-	font-size: 1.4rem;
+	font-size: 0.75em;
+	padding: 5px 10px 0;
 	line-height: 15px;
 	height: 15px;
 	font-weight: 600;
@@ -70,7 +69,8 @@
 
 pre {
 	margin-bottom: 1.2em;
-	color: var(--pre-color);
+	background: #f8f8f8;
+	color: #525252;
 	line-height: 1.45;
 	overflow: auto;
 }
